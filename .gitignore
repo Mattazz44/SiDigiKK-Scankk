@@ -1,0 +1,40 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+!frontend/.env.example
+!frontend/.env
+!frontend/.env.admin
+
+# Python & Backend
+venv/
+.venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+backend/storage/*.db
+backend/storage/temp_ocr/*
+!backend/storage/temp_ocr/.gitkeep
+uploads/*
+!uploads/.gitkeep
+backend/storage/uploads/*
+!backend/storage/uploads/.gitkeep
+
+# Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# OS & Editor
+.DS_Store
+Thumbs.db
