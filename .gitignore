@@ -38,3 +38,6 @@ frontend/dist/
 # OS & Editor
 .DS_Store
 Thumbs.db
+
+frontend/.env
+frontend/.env.admin
